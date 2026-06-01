@@ -1,0 +1,27 @@
+# Ambiente virtual Python
+venv/
+.venv/
+
+# Arquivos de cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebooks (metadados Jupyter)
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dados brutos do CWRU (muito grandes)
+data/1730 RPM/
+data/1750 RPM/
+data/1772 RPM/
+data/1797 RPM/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Configurações do VS Code (opcional, dependendo da preferência)
+.vscode/
