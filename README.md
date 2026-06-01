@@ -71,7 +71,7 @@ manutencao-preditiva-motor/
 ## ⚙️ Como reproduzir
 
 ### 1. Clone o repositório
-```bash
+bash
 git clone https://github.com/TONIRESILIENTE/manutencao-preditiva-motor.git
 cd manutencao-preditiva-motor
 2. Crie e ative o ambiente virtual
@@ -92,7 +92,7 @@ notebooks/01_analise_exploratoria.ipynb → extrai características e gera data/
 notebooks/02_modelagem.ipynb → treina modelos e salva os arquivos em models/
 
 5. Execute o dashboard
-bash
+
 streamlit run app/dashboard.py
 Acesse http://localhost:8501 no navegador.
 
@@ -132,7 +132,7 @@ A matriz de confusão (gerada no notebook 02) mostra a diagonal principal quase 
 O projeto inclui um dashboard web construído com Streamlit para diagnóstico instantâneo de falhas.
 
 Como executar
-bash
+
 streamlit run app/dashboard.py
 Funcionalidades
 📤 Upload de arquivos .npz com sinais de vibração.
