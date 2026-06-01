@@ -74,7 +74,7 @@ manutencao-preditiva-motor/
 ```bash
 git clone https://github.com/TONIRESILIENTE/manutencao-preditiva-motor.git
 cd manutencao-preditiva-motor
-
+```
 2. Crie e ative o ambiente virtual
 python -m venv venv
 # Windows:
