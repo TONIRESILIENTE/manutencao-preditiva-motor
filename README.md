@@ -71,19 +71,20 @@ manutencao-preditiva-motor/
 ## ⚙️ Como reproduzir
 
 ### 1. Clone o repositório
-
+```bash
 git clone https://github.com/TONIRESILIENTE/manutencao-preditiva-motor.git
 cd manutencao-preditiva-motor
-2. Crie e ative o ambiente virtual
 
+2. Crie e ative o ambiente virtual
 python -m venv venv
 # Windows:
 venv\Scripts\activate
 # Linux/Mac:
 source venv/bin/activate
-3. Instale as dependências
 
+3. Instale as dependências
 pip install -r requirements.txt
+
 4. Execute os notebooks (opcional)
 Abra a pasta no VS Code e execute os notebooks em ordem:
 
@@ -92,8 +93,8 @@ notebooks/01_analise_exploratoria.ipynb → extrai características e gera data/
 notebooks/02_modelagem.ipynb → treina modelos e salva os arquivos em models/
 
 5. Execute o dashboard
-
 streamlit run app/dashboard.py
+
 Acesse http://localhost:8501 no navegador.
 
 🧪 Metodologia
@@ -129,11 +130,11 @@ Matriz de confusão (XGBoost)
 A matriz de confusão (gerada no notebook 02) mostra a diagonal principal quase perfeita, com raros desvios em classes vizinhas de severidade.
 
 🖥️ Dashboard Interativo
-O projeto inclui um dashboard web construído com Streamlit para diagnóstico instantâneo de falhas.
+O projeto inclui um dashboard web construído com Streamlit para diagnóstico instantâneo de falhas
 
 Como executar
-
 streamlit run app/dashboard.py
+
 Funcionalidades
 📤 Upload de arquivos .npz com sinais de vibração.
 
@@ -148,7 +149,6 @@ Classe predita
 Confiança da predição
 
 Status colorido (verde = saudável, amarelo = falha)
-
 📊 Tabela com as 9 características extraídas.
 
 📈 Gráficos interativos do sinal no tempo e no espectro de frequência.
@@ -185,3 +185,7 @@ Testar o modelo com dados de outros motores e condições de operação (valida�
 Este projeto foi construído integralmente com ferramentas gratuitas e open source. Agradecimento especial ao laboratório CWRU por disponibilizar o dataset e à comunidade de machine learning pelo conhecimento compartilhado.
 
 Desenvolvido por Toni Almeida Muniz como parte de uma jornada de transição de carreira. Feedbacks são muito bem-vindos!
+
+
+
+
