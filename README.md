@@ -71,18 +71,18 @@ manutencao-preditiva-motor/
 ## ⚙️ Como reproduzir
 
 ### 1. Clone o repositório
-bash
+
 git clone https://github.com/TONIRESILIENTE/manutencao-preditiva-motor.git
 cd manutencao-preditiva-motor
 2. Crie e ative o ambiente virtual
-bash
+
 python -m venv venv
 # Windows:
 venv\Scripts\activate
 # Linux/Mac:
 source venv/bin/activate
 3. Instale as dependências
-bash
+
 pip install -r requirements.txt
 4. Execute os notebooks (opcional)
 Abra a pasta no VS Code e execute os notebooks em ordem:
